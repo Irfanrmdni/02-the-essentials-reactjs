@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essentials ReactJS</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <!-- ? The essentials reactJS 
+
+    ? 1. membuat inline style dengan react
+    * sintaks nya style={{properti: value}}
+    * jika menulis '200px' atau "200px" di react cukup gunakan 200
+
+    ? 2. membuat external style dengan react
+    * caranya sama saja dengan kita membuat file css sebelumnya
+
+    ? 3. membuat event inline di react
+    * ketika membuat event dan menyimpan function di event nya. maka kita jangan
+    * langsung memanggil nya dengan tanda () karna itu langsung akan di jalankan
+    * jika ada parameter nya maka kita buat si function nya itu dibungkus dengan function lagi
+    * atau dengan biar simple kita gunakan nama function.bind(this, nama parameter)
+    * .bind(this,isi parameter) adalah dia membuat function baru
+
+    ? 4. component lifecyle
+    * ini memungkinkan kita bisa mengeksekusi sebuah function dimana waktu eksekusi itu pada saat
+    * component itu dirender. dengan menggunakan bantuan React.useEffect
+    * React.useEffect berfungsi agar mengeksekusi function yang ada dalam component ketika component itu dirender
+    * ketika ada perubahan state di component maka itu akan tetap dieksekusi / di render lagi
+    * cara agar hanya memilih 1 state aja yang mau kita eksekusi ketika component di render. yaitu
+    * dengan menambahkan parameter [nama state] di useEffect 
+
+    ? component mount = ketika component dirender ke DOM tree pertama kali 
+    ? component update = ketika component dirender ke DOM tree maka function nya akan dieksekusi terus menerus
+    
+    ? React.useRef
+    * biasanya digunakan untuk menangkap element html
+    
+    ? React list & keys 
+    * keys digunakan untuk membuat element menjadi unique. jika terdapat nama yang sama maka akan error
+    
+
+
+
+    -->
+
+    <div id="root"></div>
+
+
+
+
+
+
+
+
+    <!-- ? cdn reactjs -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- ? hasil compile babel reactjs -->
+    <script src="app.js"></script>
+</body>
+
+</html>

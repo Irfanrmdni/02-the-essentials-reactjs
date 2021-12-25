@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: axiforma, sans-serif;
+    color: rebeccapurple;
+}
+
+.container {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.judul {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-size: 2rem;
+}
+
+.paragraf {
+    color: rgb(77, 77, 77);
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 1.3rem;
+    font-family: futura;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
